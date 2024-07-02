@@ -1,0 +1,28 @@
+input[type="checkbox"] {
+  accent-color: var(--clr-primary);
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.toggles-form input[type="checkbox"] {
+  margin-top: 1em;
+}
+
+.toggles-form {
+  display: grid;
+  grid-template-columns: auto 3fr;
+  gap: 2em;
+  padding: 2em 1em;
+  /* align-items: flex-start; */
+  /* align-items: center; */
+}
+
+@media screen and (width > 680px) {
+  .toggles-form {
+    display: grid;
+    grid-template-columns: auto 3fr auto 3fr;
+    gap: 2em;
+    padding: 2em 1em;
+    /* align-items: center; */
+  }
+}

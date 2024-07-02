@@ -1,0 +1,151 @@
+#notifications {
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F2;
+}
+.app-container {
+  padding: 10px;
+  align-items: center;
+}
+#notifications_module {
+  width: 100%;
+  height: 100%;
+  
+}
+.app {
+  margin-top: 10px;
+}
+.padding-10 {
+  padding: 10px;
+}
+.width-50 {
+  width: 50%;
+}
+.width-100 {
+  width: 100%;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.notification_form .form-group {
+  margin-top: 20px;
+}
+.fw-n {
+  font-weight: normal;
+}
+.btn-justified {
+  width: 100%;
+}
+.btn-justified .btn {
+  width: 33%;
+}
+.app-container .table {
+  padding-right: 10px;
+}
+.bgWhite {
+  background-color: #fff;
+}
+.preview_title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.preview-mobile {
+  margin-top: 10px;
+}
+.mobile-panel {
+  border-radius: 15px;
+}
+.web-panel {
+  border-radius: 10px;
+}
+.preview-tag {
+  display: inline-block;
+  padding: 2px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 10px;
+  color: #fff;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+.cursor {
+ cursor: pointer;
+}
+.loader {
+  width: 100%;
+  text-align: center;
+}
+.busy {
+  animation: spin 1s infinite linear;
+  display:inline-block;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-style:normal;
+  color:#555;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.busy::before {
+  content:"\25E0";
+}
+.nopost {
+  font-weight: bold;
+  font-size: 14px;
+  color:#296EAA
+}
+.filterBar {
+  flex:1;
+  margin-bottom: 10;
+  margin-top: 10;
+  flex-direction: 'row';
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(359deg);}
+}
+
+.center{
+  text-align: center;
+}
+
+.targetList{
+  height: 120px !important;
+}
+
+.boxFocus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.notification_module .control-label{
+  font-weight: bold !important;
+}
+
+.app-container .btn-default {
+  color: #333;
+  background-color: #fff !important;;
+  border-color: #ccc;
+}
+
+.app-container  .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #e6e6e6 !important;
+  border-color: #adadad;
+}
+

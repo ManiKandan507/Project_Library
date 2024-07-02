@@ -1,0 +1,261 @@
+.left-menu-icon {
+  width: 3em;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+}
+
+.left-menu-div {
+  max-width: 300px;
+  min-width: 300px;
+  width: 90%;
+}
+
+.card {
+  border-radius: 20px !important;
+  background: white;
+  color: #353535;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.download-chart-button {
+  text-align: right;
+}
+
+.export-csv-button-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.export-csv-button {
+  border-radius: 0px !important;
+  font-size: 14px !important;
+  background: #fff !important;
+  color: black !important;
+}
+
+.export-csv-button:hover {
+  border-color: #1890ff !important;
+  background: #fff !important;
+  color: #1890ff !important;
+}
+
+.member-img {
+  width: 50px !important;
+  margin-bottom: 10px !important;
+  border-radius: 0.5em !important;
+  box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0 !important;
+  max-height: 50px !important;
+  max-width: 50px !important;
+}
+
+.member-modal-header {
+  height: 60px !important
+}
+
+.member-modal-header-text {
+  margin-left: 12px;
+  margin-top: 18px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.close-icon-x {
+  text-align: end;
+  font-size: 24px;
+  cursor: pointer !important;
+  margin-right: 12px !important;
+  margin-top: 18px !important;
+}
+
+.ant-modal-header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.ant-table-thead>tr>th {
+  text-align: center !important;
+}
+
+.ant-table-cell {
+  text-align: center !important;
+}
+
+.ant-table-body {
+  min-height: 75px;
+}
+
+.ant-statistic-content {
+  font-size: 18px;
+}
+
+.lineChart g rect,
+/* Bars */
+.lineChart g text,
+/* Total labels */
+.lineChart linearGradient~path,
+/* Trend page sankeys */
+#maps_Layer_Collections {
+  cursor: pointer !important;
+}
+
+#tooltemplate {
+  width: 90px;
+  background: #353f4ce6;
+  opacity: 100%;
+  box-shadow: 0px 2px 2px #00000066;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-table-wrapper {
+  padding-top: 2rem;
+}
+
+.card-container {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(208, 216, 243, 0.5);
+}
+
+.select-container {
+  text-align: 'end';
+  margin-top: '1rem';
+  margin-bottom: '1rem';
+}
+
+.card-header {
+  font-size: 1.1rem;
+}
+
+.date-picker {
+  width: 230px
+}
+
+.CardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardDefault {
+  width: 256px
+}
+
+.cardFullHeight {
+  height: 100%;
+}
+
+.ant-table-cell.text-left {
+  text-align: left !important;
+}
+
+.sideBarTabs .ant-tabs .ant-tabs-nav-list .ant-tabs-ink-bar {
+  background-color: var(--primary_color);
+  height: 3px;
+}
+
+.sideBarTabs .ant-tabs .ant-tabs-nav-list .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--primary_color);
+}
+
+.sideBarTabs .ant-tabs-tab {
+  font-size: 28px;
+  margin: 0px;
+}
+
+.sideBarTabs .ant-tabs-tab:hover {
+  background-color: #ECECEC;
+  color: var(--primary_color);
+}
+
+.sideBarTabs .ant-tabs-tab .tab-head {
+  padding: 0.5rem 1.5rem;
+}
+
+.progress-container {
+  width: 90%;
+}
+.render-card-wrapper {
+  background-color: rgb(250, 250, 250);
+}
+.render-card-home {
+  padding: 3rem 4rem 0rem 4rem;
+}
+.render-card-files {
+  padding: 3rem 4rem;
+}
+
+
+/*Responsive screens*/
+@media (max-width: 576px) {
+  .ant-progress-text {
+    white-space: normal;
+  }
+}
+@media (max-width: 768px) {
+  .ant-progress-text {
+    white-space: normal;
+  }
+}
+@media (max-width: 992px) {
+  .ant-progress-text {
+    white-space: normal;
+  }
+}
+@media (max-width: 1200px) {
+  .progress-container {
+    width: 85%;
+  }
+  .render-card-files .cardDefault {
+    width: 120px;
+  }
+  .render-card-home .cardDefault {
+    width: 160px;
+  }
+  .render-card-wrapper .ant-card-body {
+    padding: 0;
+  }
+  .render-card-files {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .progress-container {
+    width: 75%;
+  }
+}
+.h-500 {
+  height: 500px;
+}
+.h-300 {
+  height: 300px;
+}
+.ant-badge-status-dot{
+  width:14px;
+  height:14px;
+}
+.ant-col-6{
+  background-color:#fcfdff;
+}
+.card-title{
+  font-size:16px;
+}
+.infoCircleFilled{
+  font-size:14px;
+  color:#808080
+}

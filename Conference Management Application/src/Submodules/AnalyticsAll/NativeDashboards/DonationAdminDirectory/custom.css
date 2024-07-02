@@ -1,0 +1,831 @@
+:root {
+  --clr-purple: #ece5ff;
+  --clr-green: #bef6e8;
+  --clr-Blue: #0070af;
+  --clr-violet: #a077ff;
+  --clr-liteBlue: #0673b1;
+  --primary_color: #2055E8;
+  --header_bg: #1A2F36;
+  --custom_theme_color: #0673b1;
+}
+
+.custom-theme-color {
+  color: var(--custom_theme_color) !important
+}
+
+.custom-theme-table-header-color table>thead>tr>th {
+  background-color: var(--custom_theme_color) !important;
+}
+
+
+
+.left-menu-icon {
+  width: 3em;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+}
+
+.left-menu-div {
+  max-width: 300px;
+  min-width: 300px;
+  width: 90%;
+}
+
+.card {
+  border-radius: 20px !important;
+  background: white;
+  color: #353535;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.download-chart-button {
+  text-align: right;
+}
+
+.export-csv-button-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.export-csv-button {
+  border-radius: 0px !important;
+  font-size: 14px !important;
+  background: #fff !important;
+  color: black !important;
+}
+
+.export-csv-button:hover {
+  border-color: #1890ff !important;
+  background: #fff !important;
+  color: #1890ff !important;
+}
+
+.member-img {
+  width: 50px !important;
+  margin-bottom: 10px !important;
+  border-radius: 0.5em !important;
+  box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0 !important;
+  max-height: 50px !important;
+  max-width: 50px !important;
+}
+
+.member-modal-header {
+  height: 60px !important
+}
+
+.member-modal-header-text {
+  margin-left: 12px;
+  margin-top: 18px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.close-icon-x {
+  text-align: end;
+  font-size: 24px;
+  cursor: pointer !important;
+  margin-right: 12px !important;
+  margin-top: 18px !important;
+}
+
+.ant-modal-header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.ant-table-thead>tr>th {
+  text-align: left !important;
+}
+
+.ant-table-cell {
+  text-align: left !important;
+}
+
+.ant-table-body {
+  min-height: 75px;
+}
+
+.salesReportTable table>tbody>tr>td {
+  width: 108px;
+}
+
+/* .ant-statistic-content {
+  font-size: 18px;
+} */
+
+.lineChart g rect,
+/* Bars */
+.lineChart g text,
+/* Total labels */
+.lineChart linearGradient~path,
+/* Trend page sankeys */
+#maps_Layer_Collections {
+  cursor: pointer !important;
+}
+
+#tooltemplate {
+  width: 90px;
+  background: #353f4ce6;
+  opacity: 100%;
+  box-shadow: 0px 2px 2px #00000066;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.memberTables table>thead>tr>th {
+  /* background-color: #0070af !important; */
+  color: white;
+}
+
+.salesTable table>thead>tr>th,
+.salesReportTable table>thead>tr:nth-child(1) th,
+.membershipTable table>thead>tr:nth-child(1) th {
+  color: #0070af !important;
+  font-size: 14px;
+}
+
+.exploreMore {
+  font-size: 14px;
+  background-color: Transparent;
+  border: none;
+}
+
+.ant-tabs-tab-btn {
+  font-size: 17px !important;
+}
+
+.ant-tabs-tab {
+  padding: 0px !important;
+}
+
+.ant-modal-header {
+  padding: 15px;
+  background-color: var(--custom_theme_color) !important;
+  /* background-color: #0070af; */
+  /* background-color: #1890ff !important; */
+}
+
+.statistic-card .ant-statistic-content {
+  font-weight: 600 !important;
+  font-size: 28px !important;
+}
+
+.ant-modal-title {
+  font-size: 18px;
+  color: #ffffff !important;
+}
+
+.member-count {
+  color: #0673b1;
+}
+
+.ant-modal-close-icon {
+  color: #ffffff;
+}
+
+.ant-select-clear {
+  top: 50%;
+  right: 16px;
+  width: 21px;
+  font-size: 15px;
+}
+
+.CurrentMemberTable table>thead>tr>th {
+  font-size: 14px;
+}
+
+.new-member {
+  color: #52c41a;
+  font-weight: "bold";
+  border: none;
+  background-color: transparent;
+}
+
+.ant-tabs>.ant-tabs-nav,
+.ant-tabs>div>.ant-tabs-nav {
+  margin-bottom: 0;
+}
+
+.ant-tabs>.ant-tabs-nav .ant-tabs-nav-list,
+.ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-list {
+  padding: 8px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.side-menu-title {
+  font-size: 15px !important;
+}
+
+.pl-20 {
+  padding-left: 20px !important;
+}
+
+.row-gap {
+  row-gap: 9px !important;
+}
+
+.menuValues {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+.count-icon {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.salesReportTable table>thead>tr:nth-child(2) th,
+.membershipTable table>thead>tr:nth-child(2) th {
+  background: white;
+  border-right: 1px solid #f0f0f0;
+}
+
+.membersCount {
+  border: none;
+  background-color: transparent;
+}
+
+.ant-spin-nested-loading>div>.ant-spin {
+  position: absolute;
+  min-height: 100%;
+}
+
+.sideMenuCard {
+  height: 100%;
+  padding-top: 10px;
+}
+
+.cardPadding>.ant-card-body {
+  padding: 2px !important;
+}
+
+.chartLegends {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50%;
+}
+
+.chartLegendsNodes {
+  font-size: 11px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.downloadChartLegends {
+  white-space: wrap !important;
+  width: 100% !important;
+}
+
+.salesTable .ant-table-tbody>tr.ant-table-row:hover>td {
+  background: none !important;
+}
+
+.salesTable .ant-table-tbody>tr>td {
+  padding: 13px;
+}
+
+.compareSalesTable .ant-table-tbody>tr.ant-table-row:hover>td {
+  background: none !important;
+}
+
+.select-option .ant-select-item-option-content {
+  white-space: break-spaces;
+  word-break: break-word;
+}
+
+.pt-06 {
+  padding-top: 6px !important;
+}
+
+.pt-02 {
+  padding-top: 2px !important;
+}
+
+.map-dropdown {
+  position: absolute !important;
+  right: 10px !important;
+}
+
+.trends-column-header {
+  position: absolute !important;
+  margin-top: 3px !important;
+  height: 15px !important;
+}
+
+.common-header-icon {
+  position: absolute !important;
+  margin-top: 1px !important;
+  height: 17px !important;
+}
+
+.norecords .ant-empty-normal .ant-empty-image {
+  height: 30px;
+}
+
+.sales-activity-tab .ant-tabs-tab-btn {
+  font-size: 15px !important;
+}
+
+.sales-card-description .ant-card-meta-description {
+  height: 44px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.month-picker .ant-picker-header {
+  display: none !important;
+}
+
+
+.footer-content .ant-modal-footer {
+  text-align: center !important;
+}
+
+.total-donation {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.donor-image .ant-avatar>img {
+  object-fit: contain !important;
+}
+
+.pie-chart .ant-row {
+  justify-content: space-evenly !important;
+  gap: 56px !important;
+}
+
+.clickable-column {
+  cursor: pointer;
+  /* color: #0070af; */
+}
+
+.donor-table {
+  width: '50%' !important;
+}
+
+.font-s10 {
+  font-size: 10px !important;
+}
+
+.font-s12 {
+  font-size: 12px !important;
+}
+
+.font-s14 {
+  font-size: 14px !important;
+}
+
+.font-s16 {
+  font-size: 16px !important;
+}
+
+.font-s18 {
+  font-size: 18px !important;
+}
+
+.font-s20 {
+  font-size: 20px !important;
+}
+
+.demographics-title {
+  /* color: #0673b1; */
+  font-size: 18px !important;
+}
+
+.total-values {
+  font-size: 15px !important;
+  margin-left: 2% !important;
+  font-weight: bolder !important;
+}
+
+.total-count {
+  font-size: 15px !important;
+  font-weight: bolder !important;
+}
+
+.modal-values {
+  font-weight: bold !important;
+  height: 35px !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+.donor-tags {
+  width: fit-content !important;
+  font-size: 13px !important;
+}
+
+.percentage {
+  color: gray !important;
+}
+
+.side-menu-donation {
+  /* color: #0673b1 !important; */
+  text-decoration: underline !important;
+}
+
+.card-month-table {
+  padding: 0 10px 10px 10px !important;
+}
+
+.custom-tooltip {
+  background: white !important;
+  padding: 7px 12px !important;
+  border: 1px solid #ccc !important;
+}
+
+.total-donation {
+  color: #0673b1 !important;
+}
+
+.divider-align .ant-divider-horizontal.ant-divider-with-text-left::before {
+  width: 1% !important
+}
+
+.setting-divider .ant-divider-horizontal.ant-divider-with-text-left::before {
+  width: 1px !important;
+}
+
+.donor-profile .ant-divider-horizontal.ant-divider-with-text-left::before {
+  width: 1% !important
+}
+
+.donor-profile .ant-divider-inner-text {
+  padding: 0 10px !important;
+}
+
+.divider-align .ant-divider-horizontal.ant-divider-with-text {
+  margin: 4px 0 8px 0 !important;
+}
+
+.bg-color {
+  background-color: #ffffff !important;
+}
+
+/* .search-width {
+  width: calc(100vw - 657px) !important;
+  min-width: 30% !important
+} */
+
+.checkbox-filter .ant-divider-horizontal {
+  margin: 10px 0 !important;
+}
+
+.modal-height .ant-modal-content {
+  height: 100% !important;
+}
+
+.filter-category-name {
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 3px 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 250px;
+  margin-bottom: 2px;
+}
+
+.vertical-divider .ant-divider-vertical {
+  top: 4px !important;
+  height: 2em !important;
+  border-left: 1.5px solid rgba(0, 0, 0, 0.06);
+}
+
+.settings-divider .ant-divider-vertical {
+  height: 2em !important;
+  border-left: 2.5px solid rgba(0, 0, 0, 0.06);
+  margin-left: 17px !important;
+}
+
+.filter-tag {
+  max-width: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 3px;
+}
+
+.show-more-tags {
+  max-width: 75%;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: 'pre-wrap';
+}
+
+@media (max-width: 1024px) {
+  .filter-tag {
+    max-width: 53%;
+  }
+
+  .show-more-tags {
+    max-width: 53%;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter-tag {
+    max-width: 37%
+  }
+
+  .show-more-tags {
+    max-width: 37%;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+  .filter-tag {
+    max-width: 66% !important;
+  }
+
+  .show-more-tags {
+    max-width: 66% !important;
+  }
+}
+
+@media (max-width: 2560px) and (min-width: 2330px) {
+  .filter-tag {
+    max-width: 81% !important;
+  }
+
+  .show-more-tags {
+    max-width: 81% !important;
+  }
+}
+
+.filter-button {
+  width: 333px !important;
+}
+
+.filter-modal .ant-modal-body {
+  padding: 0px !important;
+}
+
+.checkbox-padding {
+  padding: 5px 5px 5px 17px !important
+}
+
+.search-input {
+  padding: 15px 17px 0px 17px !important;
+}
+
+.show-more-button {
+  margin-left: 10px !important;
+}
+
+.scroll-container {
+  overflow-y: scroll !important;
+  height: calc(93vh - 300px) !important;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.react-quill .ql-container {
+  min-height: 350px !important;
+}
+
+.total-donation-demographic {
+  font-size: 18px !important;
+}
+
+.recentDonor-category {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recentDonor-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+
+.circle {
+  display: flex;
+  width: 12px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+.donor-invoiceModals {
+  width: 700px !important;
+}
+
+.dataPicker-suffix .ant-picker .ant-picker-suffix {
+  margin-bottom: 5px !important;
+}
+
+.horizontal {
+  top: -2px;
+  position: relative;
+  transform: scale(-1, 1) rotate(269deg);
+  display: inline-block;
+}
+
+.donation-search-width {
+  width: calc(100vw - 915px) !important;
+  min-width: 30% !important;
+}
+
+.br-5 {
+  border-radius: 5px !important;
+}
+
+.demographics-icon .anticon-pie-chart {
+  color: unset !important;
+
+}
+
+.recentDonor-name,
+.recentDonor-nameHolder {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.recentDonor-nameHolder {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.main-tab .anticon svg {
+  height: 18px !important;
+  width: 18px !important;
+}
+
+.demographics-search {
+  width: calc(100vw - 657px) !important;
+  min-width: 30% !important;
+}
+
+.modalTitle-wrapper {
+  width: max-content !important;
+}
+
+
+.dataPicker-suffix-donor .ant-picker .ant-picker-suffix {
+  margin-bottom: 3px !important;
+}
+
+.settings-form .settings-formFeilds .ant-row {
+  flex-direction: column;
+}
+
+/* .confirm-button {
+  background-color: #44bb58 !important;
+  border-color: #44bb58 !important;
+  color: white !important;
+} */
+
+.cancel-button {
+  background-color: #ed4242 !important;
+  border-color: #ed4242 !important;
+  color: white !important;
+}
+
+.statistic-card .ant-card-body {
+  padding: 0px;
+}
+
+.statistic-card .ant-descriptions-header {
+  margin-bottom: 8px !important;
+}
+
+.flex-gap {
+  gap: 15px !important;
+}
+
+.ant-spin-nested-loading {
+  position: unset !important;
+}
+
+/* .description-donor-profile .ant-descriptions-bordered .ant-descriptions-item-content,
+.ant-descriptions-bordered .ant-descriptions-item-label {
+  padding: 8px 24px;
+} */
+
+/* .description-donationHeader .ant-descriptions-bordered .ant-descriptions-item-content,
+.ant-descriptions-bordered 
+.ant-descriptions-item-label {
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+.description-donationHeader .Donation-dropdown .ant-descriptions-item-content,
+.ant-descriptions-bordered .ant-descriptions-item-content {
+  font-weight: unset !important;
+  padding: 0px;
+} */
+
+/* .description-donor-profile.ant-descriptions-item-label,.description-donationHeader */
+.ant-descriptions-item-label,
+.ant-descriptions-item-content {
+  padding: 5px 10px !important;
+}
+
+.ant-descriptions-item-label {
+  font-weight: bold;
+}
+
+/* .description-donor-profile .ant-descriptions-item-content, */
+.description-donationHeader .Donation-dropdown .ant-descriptions-item-content {
+  font-weight: unset !important;
+  padding: 0px !important;
+}
+
+
+.donation-modal .ant-modal-body {
+  padding: 20px !important;
+}
+
+.Donation-dropdown .ant-select-selector {
+  border: unset !important;
+}
+
+.text-wrap {
+  text-wrap: wrap;
+}
+
+.mh-100 {
+  min-height: calc(100vh - 100px);
+}
+
+.donorModal-card-width {
+  width: 25%;
+}
+
+@media screen and (max-width:1024px) {
+  .donors-header {
+    flex-direction: column !important;
+  }
+
+  .donor-rowHeader {
+    min-width: 100% !important;
+    margin: 0% !important;
+    margin-top: 12px !important;
+  }
+}
+
+@media screen and (max-width:1170px) {
+
+  .donation-radioGroups,
+  .donation-downloadBtn {
+    margin-top: 12px !important;
+  }
+
+  .donation-downloadBtn {
+    margin-left: auto;
+    margin-right: 12px;
+  }
+
+}
+
+@media screen and (max-width:900px) {
+  .donation-modal {
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width:1330px) {
+  .donorModal-cards {
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+    gap: unset !important;
+  }
+
+  .donorModal-card-width {
+    width: 48% !important;
+  }
+
+}

@@ -1,0 +1,206 @@
+.directory-form {
+  /* padding: 2em 1em; */
+}
+
+.region-form.ant-form {
+  margin: 2em 0em;
+}
+
+.form-header {
+  font-weight: bold;
+  margin-bottom: 0.25em;
+  font-size: larger;
+}
+
+.form-subtitle {
+  color: var(--clr-gray-2);
+  font-size: 1.05rem;
+  margin-bottom: 0.7em !important;
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 2.5em;
+}
+
+@media screen and (width > 680px) {
+  .directory-form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 2em;
+    row-gap: 2.5em;
+  }
+  .form-field {
+    margin-bottom: 0;
+  }
+}
+
+.semantic-tab {
+  padding: 1em 1em;
+}
+
+.semantic-tab .ui.grid {
+  flex-wrap: nowrap;
+}
+
+.semantic-tab .four.wide.column {
+  max-width: 15em;
+  margin-right: 2em;
+  border-right: solid 1px lightgray;
+}
+
+.semantic-tab .twelve.wide.column {
+  flex-grow: 1 !important;
+}
+
+.semantic-tab a.item {
+  font-size: 1.1rem;
+  color: var(--clr-gray-3) !important;
+  font-weight: bold !important;
+}
+
+.multi-select {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  max-height: 16em;
+}
+
+.multi-select li {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  margin: 0.3em;
+  background: var(--clr-primary);
+  color: white;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: bold;
+  transition: all ease 200ms;
+}
+
+.ordered-multi-select {
+  margin: 0;
+  padding: 0;
+  padding-right: 2.5em;
+}
+
+.ordered-multi-select li {
+  display: inline-block;
+  padding: 0.3em 0.75em;
+  margin: 0.3em;
+  background: var(--clr-primary);
+  color: white;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  cursor: grab;
+}
+
+.ordered-multi-select li .remove {
+  margin-left: 0.5em;
+  color: white !important;
+  border: none;
+  padding: 0;
+}
+
+.ordered-multi-select li .remove:is(:hover, :focus) {
+  border: none !important;
+  color: var(--clr-gray-1) !important;
+}
+
+.ordered-multi-select .add-field {
+  background: transparent;
+  color: var(--clr-gray-2);
+  padding: 0;
+  border: var(--clr-gray-2) dashed 2px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+}
+
+.ordered-multi-select .add-field:is(:hover, :focus) {
+  /* border: var(--clr-gray-3) solid 2px; */
+}
+
+.ordered-multi-select .add-field:is(:hover, :focus) p {
+  color: var(--clr-gray-3);
+}
+
+.ordered-multi-select .add-field p {
+  color: var(--clr-gray-2);
+  background: transparent;
+  padding: 0.3em 0.75em;
+  margin: 0;
+}
+
+.ordered-multi-select .dropdown {
+  display: none;
+  position: absolute;
+  border-radius: var(--border-radius);
+  top: 2em;
+  /* left: -0.5em; */
+  z-index: 100;
+  padding-inline: 1em;
+  padding-bottom: 1em;
+  background: hsl(0, 0%, 100%, 50%);
+  min-width: 30em;
+  max-height: 15em;
+  overflow: auto;
+}
+
+.ordered-multi-select .add-field:focus-within .dropdown {
+  display: block;
+}
+
+.ordered-multi-select .dropdown-button {
+  background: var(--clr-gray-1);
+  padding: 0.3em 0.75em;
+  border: none;
+  margin: 0.2em;
+}
+
+.ordered-multi-select .dropdown-button:is(:hover, :focus) {
+  border: none !important;
+}
+
+.ordered-multi-select .dropdown-button:hover {
+  background: var(--clr-primary);
+  color: white !important;
+}
+
+.ordered-multi-select .dragging {
+  opacity: 0.7;
+}
+
+.card-line li::marker {
+  font-weight: bold !important;
+  font-size: 1rem !important;
+}
+
+.card-line-remove {
+  color: var(--clr-gray-2) !important;
+  padding: 0.15em 0.5em;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.card-line-remove:is(:hover, :focus) {
+  border: none !important;
+  color: var(--clr-gray-3);
+}
+
+.card-line-add {
+  display: block;
+  width: 100%;
+  border: var(--clr-gray-2) solid 2px;
+  color: var(--clr-gray-2) !important;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5em;
+}
+
+.card-line-add:is(:hover, :focus) {
+  border: var(--clr-gray-3) solid 2px !important;
+  color: var(--clr-gray-3);
+}

@@ -1,0 +1,289 @@
+:root {
+  --clr-gray-1: lightgray;
+  --clr-gray-2: rgb(134, 134, 134);
+  --clr-gray-3: #616161;
+  --clr-gray-4: #424242;
+
+  --clr-primary: rgb(81, 81, 187);
+  --clr-primary-light: rgb(217, 217, 243);
+  --clr-primary-dark: rgb(43, 43, 170);
+
+  --border-radius: 3px;
+}
+
+.app {
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 2em;
+}
+
+/* colors */
+.bg-white {
+  background: white;
+}
+
+.bg-primary {
+  background: var(--clr-primary) !important;
+}
+
+.bg-primary-dark {
+  background: var(--clr-primary-dark) !important;
+}
+
+.bg-primary-light {
+  background: var(--clr-primary-light) !important;
+}
+
+.bg-gray-1 {
+  background: var(--clr-gray-1);
+}
+
+.bg-gray-2 {
+  background: var(--clr-gray-2);
+}
+
+.bg-gray-3 {
+  background: var(--clr-gray-3);
+}
+
+.bg-gray-4 {
+  background: var(--clr-gray-4);
+}
+
+.fg-white {
+  color: white;
+}
+
+.fg-gray-1 {
+  color: var(--clr-gray-1);
+}
+
+.fg-gray-2 {
+  color: var(--clr-gray-2);
+}
+
+.fg-gray-3 {
+  color: var(--clr-gray-3);
+}
+
+.fg-gray-4 {
+  color: var(--clr-gray-4);
+}
+
+/* font */
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* spacing */
+.m-auto {
+  margin: auto;
+}
+
+.mx-auto {
+  margin-inline: auto;
+}
+
+.my-auto {
+  margin-block: auto;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5em;
+}
+
+/* misc */
+.block {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.rounded {
+  border-radius: var(--border-radius);
+}
+
+.header {
+  font-weight: bold;
+  margin-bottom: 0.1em;
+  margin-top: 0.3em;
+  font-size: 2rem;
+  color: var(--clr-gray-4);
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--clr-gray-2);
+}
+
+hr {
+  margin-block: 0.4em;
+  border-width: 1px !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.capitalize::first-letter {
+  text-transform: capitalize;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  outline: none;
+  padding-inline: 0.75em !important;
+  height: 3rem;
+  border: 2px var(--clr-gray-2) solid;
+  transition: all ease 300ms;
+  display: block;
+  width: 100%;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  color: var(--clr-gray-3) !important;
+}
+
+input[type="text"]:focus {
+  border: 2px var(--clr-gray-3) solid;
+  color: var(--clr-gray-4) !important;
+}
+input[type="text"]::placeholder {
+  color: var(--clr-gray-1);
+  transition: all ease 300ms;
+}
+
+input[type="text"]:focus::placeholder {
+  color: var(--clr-gray-2);
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 6rem;
+  outline: none;
+  display: block;
+  border: 2px var(--clr-gray-2) solid;
+  padding: 0.75em !important;
+  font-weight: 600;
+  color: var(--clr-gray-3) !important;
+  transition: border ease 300ms, color ease 300ms;
+  border-radius: var(--border-radius);
+}
+
+textarea::placeholder {
+  transition: all ease 300ms;
+  color: var(--clr-gray-1);
+  font-weight: 600;
+}
+
+textarea:focus {
+  border: 2px var(--clr-gray-3) solid;
+  color: var(--clr-gray-4) !important;
+}
+
+textarea:focus::placeholder {
+  color: var(--clr-gray-2);
+}
+
+button {
+  padding: 0.25em 0.8em;
+  background: none;
+  border: 2px solid var(--clr-gray-2);
+  color: var(--clr-gray-3) !important;
+  transition: all ease 300ms;
+  border-radius: var(--border-radius);
+  font-weight: 600 !important;
+  cursor: pointer;
+}
+
+button:is(:hover:enabled, :focus:enabled) {
+  border-color: var(--clr-gray-3);
+  color: var(--clr-gray-3) !important;
+}
+
+button.primary {
+  background: var(--clr-primary);
+  color: var(--clr-primary-light) !important;
+  border: 2px solid var(--clr-gray-2);
+}
+
+button.primary:is(:hover:enabled, :focus:enabled) {
+  background: var(--clr-primary-dark);
+  color: var(--clr-gray-1) !important;
+  border-color: var(--clr-gray-1);
+}
+
+button:disabled {
+  background: gray;
+  color: lightgray !important;
+  border: 2px solid lightgray;
+  cursor: not-allowed !important;
+}
+
+.ui.selection.dropdown {
+  border: 2px solid var(--clr-gray-2) !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  color: var(--clr-gray-3);
+}
+
+.ui.selection.dropdown .item {
+  font-size: 1rem !important;
+  font-weight: normal;
+  color: var(--clr-gray-3);
+}

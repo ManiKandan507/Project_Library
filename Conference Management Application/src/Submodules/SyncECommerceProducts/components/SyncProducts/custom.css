@@ -1,0 +1,11 @@
+.wizard-table .ant-empty-normal{
+    visibility: hidden;
+}
+
+.error-notifiction .ant-result-icon > .anticon {
+    font-size: 60px;
+}
+
+.error-notifiction .ant-result-icon{
+    margin-bottom: 8px;
+}

@@ -1,0 +1,64 @@
+.add-ribbon {
+  color: var(--clr-gray-2);
+  background: transparent;
+  padding: 0.14em 0.75em !important;
+  margin: 0;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.add-ribbon:is(:hover, :focus) {
+  color: var(--clr-gray-3);
+}
+
+details {
+  margin-bottom: 2em;
+}
+
+summary {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--clr-gray-3);
+  cursor: pointer;
+  margin-bottom: 0.5em;
+}
+
+label {
+  font-size: 1.1rem;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+  color: var(--clr-gray-3);
+}
+
+.filter-input {
+  margin-bottom: 1.5em;
+}
+
+.filter-content {
+  margin-left: 0.4em;
+  padding-left: 1.7em;
+  padding-block: 1em 0.5em;
+  margin-bottom: 3em;
+  border-left: 1px solid var(--clr-gray-1);
+  box-sizing: border-box;
+}
+
+.remove-button:is(:hover, :focus) {
+  color: var(--clr-gray-2);
+}
+
+.nested-custom-field {
+  margin-left: 1em;
+}
+.select_ellip > div {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.multi-selected > .multiple {
+  padding: 0.22619em 2.1em 0.35619048em 0.35714286em !important;
+}

@@ -1,0 +1,108 @@
+:root {
+  --clr-gray-1: lightgray;
+  --clr-gray-2: rgb(134, 134, 134);
+  --clr-gray-3: #616161;
+  --clr-gray-4: #424242;
+
+  --clr-primary: #296EAA;
+  --clr-primary-light: rgb(217, 217, 243);
+  --clr-primary-dark: #313A45;
+
+  --border-radius: 3px;
+  --font-family: AvenirLTStd-Book !important;
+  
+}
+
+
+.app {
+  font-family: var(--font-family) !important;
+  padding: 1.5em;
+  background-color: #eef2f6 ;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.f-1 {
+  flex: 1;
+}
+.pointer {
+  cursor: pointer;
+}
+.header {
+  font-weight: 600;
+  margin-bottom: 0.1em;
+  margin-top: 0.3em;
+  font-size: 1.5rem;
+  color: var(--clr-primary-dark);
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--clr-gray-3);
+}
+
+input[type="text"] {
+  outline: none;
+  padding-inline: 0.75em !important;
+  height: 2.5rem;
+  transition: all ease 300ms;
+  display: block;
+  width: 100%;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  color: var(--clr-primary-dark) !important;
+  font-family: var(--font-family) !important;
+  font-size: 0.8rem;
+}
+
+input[type="text"]:focus, .icon-selection:focus {
+  border: 1px var(--clr-primary-light) solid;
+  color: var(--clr-primary-dark) !important;
+}
+
+input[type="text"]::placeholder {
+  color: var(--clr-primary-dark);
+  transition: all ease 300ms;
+}
+
+input[type="text"]:focus::placeholder {
+  color: var(--clr-primary-dark);
+}
+
+input[type="text"]:focus {
+  border: 1px var(--clr-primary) solid;
+  color: var(--clr-primary-dark) !important;
+}
+input[type="text"]::placeholder {
+  color: var(--clr-primary-dark);
+  transition: all ease 300ms;
+}
+
+input[type="text"]:focus::placeholder {
+  color: var(--clr-primary-dark);
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+textarea.ant-input {
+  width: 100%;
+  resize: vertical;
+  min-height: 6rem;
+  outline: none;
+  display: block;
+  border: 1px solid #d9d9d9 !important;
+  padding: 0.75em !important;
+  font-weight: 600;
+  color: var(--clr-gray-3) !important;
+  transition: border ease 300ms, color ease 300ms;
+  border-radius: var(--border-radius);
+}
+

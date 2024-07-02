@@ -1,0 +1,6 @@
+.group-colors {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  align-items: flex-end;
+  gap: 2em;
+}
